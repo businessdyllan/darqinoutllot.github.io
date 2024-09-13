@@ -7,13 +7,16 @@
   xsi:type="MailApp">
   <Id>12345678-1234-1234-1234-123456789012</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Votre Nom</ProviderName>
+  <ProviderName>Dylan test</ProviderName>
   <DefaultLocale>fr-FR</DefaultLocale>
   <DisplayName DefaultValue="Mon Analyseur d'Email" />
   <Description DefaultValue="Un add-in pour analyser les emails avec ChatGPT"/>
   <IconUrl DefaultValue="https://www.example.com/assets/icon-32.png" />
   <HighResolutionIconUrl DefaultValue="https://www.example.com/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://www.example.com/help"/>
+  <AppDomains>
+    <AppDomain>https://api.openai.com</AppDomain>
+  </AppDomains>
   <Hosts>
     <Host Name="Mailbox" />
   </Hosts>
