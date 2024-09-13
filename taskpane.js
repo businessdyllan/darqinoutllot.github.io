@@ -22,7 +22,7 @@ async function analyzeEmail() {
 }
 
 async function analyzeWithChatGPT(subject, body, sender) {
-    const API_KEY = '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';
+    const API_KEY = 'sk-urbFEjtfYMv1K72HV0smSwsSaJ9QyY3bkS8zP5HkLoT3BlbkFJ7hjue81b8Wdio94SbY1kyKfS2N7y5zFI4S0pco-S0A';
     const API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
 
     const prompt = `Analyze the following email:
