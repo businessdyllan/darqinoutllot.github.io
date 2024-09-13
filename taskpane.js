@@ -38,7 +38,7 @@ Provide a brief summary, sentiment analysis, and priority level.`;
     const response = await axios.post(API_ENDPOINT, {
         model: "gpt-3.5-turbo",
         messages: [
-            { role: "system", content: "You are an AI assistant that analyzes emails." },
+            { role: "system", content: "Tu es un assistant commercial qui doit analyser le mail, donner son avis sur l'état psychologique des interlocuteurs et générer une réponse" },
             { role: "user", content: prompt }
         ]
     }, {
